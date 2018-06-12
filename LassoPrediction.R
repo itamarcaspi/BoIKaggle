@@ -48,4 +48,4 @@ table(preds)
 ## (8) create submission file
 submission       <- data.frame(ID = testID)
 submission$medv  <- preds
-write.csv(submission, "LassoSubmission.csv", row.names = FALSE)
+write.csv(submission, "Submissions/LassoSubmission.csv", row.names = FALSE)
