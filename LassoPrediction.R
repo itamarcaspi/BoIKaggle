@@ -1,9 +1,10 @@
 # Set seed to enable replication of the results
 set.seed(1203)
 
-## Load packeges
+## Dependencies
 #install.packages("mlr")
 #install.packages("here")
+#install.packages("glm")
 library(mlr)
 library(here)
 
